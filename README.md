@@ -1,6 +1,6 @@
 # NodeLoader
 
-A Node.js native addon that allows you to launch macOS applications programmatically. The module provides a simple API to launch applications either by their bundle identifier or by path.
+A Node.js native addon that allows you to launch macOS applications or shell commands programmatically.
 
 ## Features
 
@@ -12,8 +12,8 @@ A Node.js native addon that allows you to launch macOS applications programmatic
 
 ```bash
 # Clone the repository
-git clone https://github.com/adversis/NodeLauncher.git
-cd NodeLauncher
+git clone https://github.com/adversis/NodeLoader.git
+cd NodeLoader
 
 # Install dependencies
 npm install
