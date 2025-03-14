@@ -1,0 +1,29 @@
+{
+  "name": "objc-node-launcher",
+  "version": "1.0.0",
+  "description": "Node.js addon to launch macOS applications",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "keywords": [
+    "macos",
+    "launcher",
+    "native",
+    "addon"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-addon-api": "^7.0.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^10.0.1"
+  },
+  "gypfile": true,
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
